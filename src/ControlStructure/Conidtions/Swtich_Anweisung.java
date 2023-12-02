@@ -2,7 +2,7 @@ package ControlStructure.Conidtions;
 
 public class Swtich_Anweisung {
     public static void main(String[] args) {
-        String month = "January";
+        String month = "April";
         switch (month) {
             case "January":
                 System.out.println("31 Tage");
@@ -40,7 +40,6 @@ public class Swtich_Anweisung {
             case "December":
                 System.out.println("31 Tage");
                 break;
-
             default:
                 System.out.println("Bitte etwas gültiges!");
         }

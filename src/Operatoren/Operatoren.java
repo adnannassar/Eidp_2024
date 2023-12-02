@@ -24,6 +24,7 @@ public class Operatoren {
 
         System.out.println("z: " + z);
         System.out.println("z: " + z++); // Postfix
+        System.out.println("z: " + z);
         System.out.println("z: " + ++z); // Prefix
 
 
@@ -35,12 +36,16 @@ public class Operatoren {
         System.out.println("a: " + a);
         a %= 10;
         System.out.println("a: " + a);
+        a -= 5;
+        System.out.println("a: " + a);
+        a += 20;
+        System.out.println("a: " + a);
 
         // 4. > >= < <= == !=
         System.out.println("\n4. > >= < <= == !=");
         int b = 30;
         int c = 20;
-        boolean result1 = b > c;
+        boolean result1 = b > c  ;
         boolean result2 = b != c;
         System.out.println("result of b > c " + result1);
         System.out.println("result of b != c " + result2);

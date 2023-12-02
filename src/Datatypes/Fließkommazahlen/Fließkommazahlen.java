@@ -8,7 +8,7 @@ public class Fließkommazahlen {
         System.out.println("float f = " + f);
 
 
-        //double 8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
+        //double 8 byte Stores fractional numbers. Sufficient for storing 15 decimal digits
         double d = 200.123123;
         System.out.println("double d = " + d);
     }

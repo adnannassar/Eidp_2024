@@ -3,8 +3,8 @@ package Datatypes.Ganzzahlen;
 public class Ganzzahlen {
     public static void main(String[] args) {
         //byte: 1 byte	Stores whole numbers from -128 to 127
-        byte b = 127;
-        System.out.println("Byte b = " + b);
+        byte b = 125;
+        System.out.println("byte b = " + b);
 
 
         //short: 2 byte	Stores whole numbers from -32,768 to 32,767

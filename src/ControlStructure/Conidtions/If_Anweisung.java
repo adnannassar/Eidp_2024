@@ -2,14 +2,14 @@ package ControlStructure.Conidtions;
 
 public class If_Anweisung {
     public static void main(String[] args) {
-        int x = 1;
+        int x = 0;
         if (x > 0) {
-            System.out.println("X ist Positive!");
-        } else if (x < 0) {
-            System.out.println("X ist Negative!");
+            System.out.println("Positive!");
+        } else if (x == 0) {
+            System.out.println("Neutral!");
         }
         else {
-            System.out.println("X ist 0");
+            System.out.println("Negative!");
         }
     }
 }
