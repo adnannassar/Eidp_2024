@@ -1,4 +1,4 @@
-package Array;
+package Array.OneDimArray;
 
 public class ErrorsInArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Array;
+package Array.OneDimArray;
 
 public class FirstSteps {
     public static void main(String[] args) {

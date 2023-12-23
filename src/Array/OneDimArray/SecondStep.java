@@ -1,4 +1,4 @@
-package Array;
+package Array.OneDimArray;
 
 public class SecondStep {
     public static void main(String[] args) {
