@@ -4,11 +4,16 @@ public class Student {
     private int id;
     private String name;
     private float note;
+    private static int counter;
 
-
-    public Student(int id, String name) {
-        this.id = id;
+    public Student(String name) {
         this.name = name;
+        counter++;
+        this.id = counter;
+    }
+
+    public static void printHallo() {
+        System.out.println("Hallo!");
     }
 
     // Setters
@@ -32,6 +37,7 @@ public class Student {
     public int getId() {
         return this.id;
     }
+
 
     public void printStudentInfo() {
         System.out.println("ID: " + id + ", Name: " + name + ", Note: " + note);
