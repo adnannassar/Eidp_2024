@@ -1,6 +1,6 @@
 package OOP.Vererbung;
 
-public class Student  extends Person {
+public class Student extends Person {
     private int mtrNr;
 
     public Student(String name, int birthYear, int mtrNr) {

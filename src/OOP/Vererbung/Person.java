@@ -13,8 +13,6 @@ public class Person {
         return "Person --> " +  name;
     }
 
-
-
     public int getBirthYear() {
         return birthYear;
     }
