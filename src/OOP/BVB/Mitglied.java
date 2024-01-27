@@ -2,10 +2,14 @@ package OOP.BVB;
 
 public abstract class Mitglied {
     private String name, vorname;
+    private int id;
+    public static int counter;
 
     public Mitglied(String name, String vorname) {
         this.name = name;
         this.vorname = vorname;
+        counter++;
+        this.id = counter;
     }
 
     public String getName() {
@@ -29,4 +33,8 @@ public abstract class Mitglied {
     public abstract String getSonstiges();
 
     public abstract String getType();
+
+    public int getId() {
+        return id;
+    }
 }

@@ -34,7 +34,7 @@ public class Spieler extends Mitglied {
 
    @Override
    public String getSonstiges() {
-      return spielPosition + " / Spieleinsätze: " + anzahlSpielEinsätze;
+      return "Position: " +  spielPosition + " / Spieleinsätze: " + anzahlSpielEinsätze;
    }
 
    @Override
